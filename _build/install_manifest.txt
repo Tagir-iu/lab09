@@ -1,0 +1,2 @@
+/Users/macbook/Desktop/lab09/_build/_CPack_Packages/Darwin/TGZ/print-0.1.0-Darwin/lib/libprint.a
+/Users/macbook/Desktop/lab09/_build/_CPack_Packages/Darwin/TGZ/print-0.1.0-Darwin/include/print.h
