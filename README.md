@@ -98,13 +98,13 @@ cmake --build _build --target package
 ### 5.Создание тэга и релиза
 ```
 # Создание подписанного тега
-git tag -s v0.1.0.0 -m "First release"
+git tag -s v0.1.0 -m "First release"
 
 # Отправка тега
 git push origin v0.1.0
 
 # Создание релиза через GitHub CLI
-gh release create v0.1.0.0 \
+gh release create v0.1.0 \
     --title "print library" \
     --notes "First release: static library for string formatting" \
     _build/print-0.1.0-Linux.tar.gz
